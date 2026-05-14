@@ -10,7 +10,7 @@ pipeline {
 
         stage('Unit and Integration Tests') {
             steps {
-                echo 'Stage 2: Unit and Integration Tests - Running tests using JUnit and Selenium.'
+                echo 'Stage 2: Unit and Integration Tests - Running tests using Selenium and JUnit.'
             }
         }
 
